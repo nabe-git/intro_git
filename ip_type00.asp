@@ -4,33 +4,33 @@
 
 'テーブル一つだけを利用したテーブル
 dim xi
-
 dim where_string
+
 call makesql
 
 %>
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
 "http://www.w3.org/TR/html4/loose.dtd">
 <html>
-<head>
-<meta http-equiv="Content-Type" content="text/html; charset=shift_jis">
-<title>NISSIN WEB SYSTEM</title>
-<link rel="stylesheet" href="style/t-plat.css" type="text/css">
-<script language="JavaScript" src="image\calendarlay.js"></script>
-<script language="javascript">
-<!--
-function changeCSS(CSS_NO) {
- if (document.getElementById(CSS_NO).style.color == "red") {
-   document.getElementById(CSS_NO).style.color = "";
-   document.getElementById(CSS_NO).style.fontWeight = "";
- } else {
-   document.getElementById(CSS_NO).style.color = "red";
-   document.getElementById(CSS_NO).style.fontWeight = 400;
-  }
-}     　　
-//-->
-</script>
-</head>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=shift_jis">
+		<title>NISSIN WEB SYSTEM</title>
+		<link rel="stylesheet" href="style/t-plat.css" type="text/css">
+		<script language="JavaScript" src="image\calendarlay.js"></script>
+		<script language="javascript">
+		<!--
+		function changeCSS(CSS_NO) {
+		if (document.getElementById(CSS_NO).style.color == "red") {
+		document.getElementById(CSS_NO).style.color = "";
+		document.getElementById(CSS_NO).style.fontWeight = "";
+		} else {
+		document.getElementById(CSS_NO).style.color = "red";
+		document.getElementById(CSS_NO).style.fontWeight = 400;
+		}
+		}
+		//-->
+		</script>
+	</head>
 <body>
 	<table width="100%" bgcolor="#5A90D3">
 		<tr>
