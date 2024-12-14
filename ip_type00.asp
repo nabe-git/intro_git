@@ -20,13 +20,13 @@ call makesql
 		<script language="javascript">
 		<!--
 		function changeCSS(CSS_NO) {
-		if (document.getElementById(CSS_NO).style.color == "red") {
-		document.getElementById(CSS_NO).style.color = "";
-		document.getElementById(CSS_NO).style.fontWeight = "";
-		} else {
-		document.getElementById(CSS_NO).style.color = "red";
-		document.getElementById(CSS_NO).style.fontWeight = 400;
-		}
+			if (document.getElementById(CSS_NO).style.color == "red") {
+				document.getElementById(CSS_NO).style.color = "";
+				document.getElementById(CSS_NO).style.fontWeight = "";
+			} else {
+				document.getElementById(CSS_NO).style.color = "red";
+				document.getElementById(CSS_NO).style.fontWeight = 400;
+			}
 		}
 		//-->
 		</script>
